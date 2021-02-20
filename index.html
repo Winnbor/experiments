@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+      integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/splide-core.min.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="players-section-margin">
+      <div class="container players-section">
+        <div class="table-head">
+          <div class="number-column"></div>
+          <div class="name-column"><span>имя</span></div>
+          <div class="position-column"><span>позиция</span></div>
+          <div class="age-column additional-column"><span>возраст</span></div>
+          <div class="height-column additional-column">
+            <span>рост/вес</span>
+          </div>
+          <div class="more-info-column"></div>
+        </div>
+        <ul class="players-list">
+          <li>
+            <div class="table-info random accordion">
+              <div class="number-column table-data-container">
+                <span class="player-number table-data bordered">12</span>
+              </div>
+              <div class="name-column table-data-container">
+                <span class="table-data bordered">николай голиков</span>
+              </div>
+              <div class="position-column table-data-container">
+                <span class="table-data bordered">защита</span>
+              </div>
+              <div class="age-column table-data-container additional-column">
+                <span class="table-data bordered">24</span>
+              </div>
+              <div class="height-column table-data-container additional-column">
+                <span class="table-data bordered">178/75</span>
+              </div>
+              <div class="more-info-column table-data-arrow">
+                <svg class="arrow-angle">
+                  <use xlink:href="sprite.svg#arrow-angle"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="player-list-inner-card-wrapper">
+                <div class="slider-wrapper splide">
+                  <div class="splide__track">
+                    <div class="splide__list">
+                      <div class="splide__slide">
+                        <div class="slider-slide splide__slide__container">
+                          <img
+                            src="./img/placeholder-player-list.jpg"
+                            alt="Иван Иванов"
+                            class="player-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="splide__slide">
+                        <div class="slider-slide splide__slide__container">
+                          <img
+                            src="./img/af-players-3.jpg"
+                            alt="Иван Иванов"
+                            class="player-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="splide__slide">
+                        <div class="slider-slide splide__slide__container">
+                          <img
+                            src="./img/team-inst-img3.jpg"
+                            alt="Иван Иванов"
+                            class="player-img"
+                          />
+                        </div>
+                      </div>
+                      <div class="splide__slide">
+                        <div class="slider-slide splide__slide__container">
+                          <img
+                            src="./img/gameplay-media.jpg"
+                            alt="Иван Иванов"
+                            class="player-img"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="player-data">
+                  <p class="player-data-label">возраст</p>
+                  <p class="player-data-value margin">24</p>
+                  <p class="player-data-label">рост/вес</p>
+                  <p class="player-data-value">177/80</p>
+                </div>
+                <div class="player-info-wrapper">
+                  <p class="player-info-heading">об игроке:</p>
+                  <p class="player-info">
+                    Крайне габаритный игрок в прошлом, чьи физические данные не
+                    раз спасали команду в прошлых сезонах. Имеется внутри
+                    командное прозвище Оптимус прайм. Участник Чемпионатов
+                    России по американскому футболу с 2012 года. В 2017 году
+                    решил, что может дать команде больше если будет их
+                    тренировать и с тех пор имеем одного из опытных тренеров
+                    линии нападения.
+                  </p>
+                  <div class="dummy-player-arrow">
+                    <svg class="icon-arrow-down dummy">
+                      <use xlink:href="sprite.svg#arrow-down"></use>
+                    </svg>
+                  </div>
+                </div>
+                <ul class="player-social-links social-icons">
+                  <li>
+                    <a href="#">
+                      <svg class="icon-vk light player">
+                        <use xlink:href="sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="icon-instagram light player">
+                        <use xlink:href="sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="table-info accordion">
+              <div class="number-column table-data-container">
+                <span class="player-number table-data bordered">12</span>
+              </div>
+              <div class="name-column table-data-container">
+                <span class="table-data bordered">николай голиков</span>
+              </div>
+              <div class="position-column table-data-container">
+                <span class="table-data bordered">защита</span>
+              </div>
+              <div class="age-column table-data-container additional-column">
+                <span class="table-data bordered">24</span>
+              </div>
+              <div class="height-column table-data-container additional-column">
+                <span class="table-data bordered">178/75</span>
+              </div>
+              <div class="more-info-column table-data-arrow">
+                <svg class="arrow-angle">
+                  <use xlink:href="sprite.svg#arrow-angle"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="player-list-inner-card-wrapper">
+                <div class="slider-wrapper">
+                  <div class="slider-slide">
+                    <img
+                      src="./img/placeholder-player-list.jpg"
+                      alt="Иван Иванов"
+                      class="player-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="player-data">
+                  <p class="player-data-label">возраст</p>
+                  <p class="player-data-value margin">24</p>
+                  <p class="player-data-label">рост/вес</p>
+                  <p class="player-data-value">177/80</p>
+                </div>
+                <div class="player-info-wrapper">
+                  <p class="player-info-heading">об игроке:</p>
+                  <p class="player-info">
+                    Крайне габаритный игрок в прошлом, чьи физические данные не
+                    раз спасали команду в прошлых сезонах ,Имеется внутри
+                    командное прозвище Оптимус прайм Участник Чемпионатов России
+                    по американскому футболу с 2012 года. В 2017 году решил что
+                    может дать команде больше если будет их тренировать и с тех
+                    пор имеем одного из опытных тренеров линии нападения
+                  </p>
+                </div>
+                <ul class="player-social-links social-icons">
+                  <li>
+                    <a href="#">
+                      <svg class="icon-vk light player">
+                        <use xlink:href="sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="icon-instagram light player">
+                        <use xlink:href="sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="table-info accordion">
+              <div class="number-column table-data-container">
+                <span class="player-number table-data bordered">12</span>
+              </div>
+              <div class="name-column table-data-container">
+                <span class="table-data bordered">николай голиков</span>
+              </div>
+              <div class="position-column table-data-container">
+                <span class="table-data bordered">защита</span>
+              </div>
+              <div class="age-column table-data-container additional-column">
+                <span class="table-data bordered">24</span>
+              </div>
+              <div class="height-column table-data-container additional-column">
+                <span class="table-data bordered">178/75</span>
+              </div>
+              <div class="more-info-column table-data-arrow">
+                <svg class="arrow-angle">
+                  <use xlink:href="sprite.svg#arrow-angle"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="player-list-inner-card-wrapper">
+                <div class="slider-wrapper">
+                  <div class="slider-slide">
+                    <img
+                      src="./img/placeholder-player-list.jpg"
+                      alt="Иван Иванов"
+                      class="player-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="player-data">
+                  <p class="player-data-label">возраст</p>
+                  <p class="player-data-value margin">24</p>
+                  <p class="player-data-label">рост/вес</p>
+                  <p class="player-data-value">177/80</p>
+                </div>
+                <div class="player-info-wrapper">
+                  <p class="player-info-heading">об игроке:</p>
+                  <p class="player-info">
+                    Крайне габаритный игрок в прошлом, чьи физические данные не
+                    раз спасали команду в прошлых сезонах ,Имеется внутри
+                    командное прозвище Оптимус прайм Участник Чемпионатов России
+                    по американскому футболу с 2012 года. В 2017 году решил что
+                    может дать команде больше если будет их тренировать и с тех
+                    пор имеем одного из опытных тренеров линии нападения
+                  </p>
+                </div>
+                <ul class="player-social-links social-icons">
+                  <li>
+                    <a href="#">
+                      <svg class="icon-vk light player">
+                        <use xlink:href="sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="icon-instagram light player">
+                        <use xlink:href="sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="table-info random accordion">
+              <div class="number-column table-data-container">
+                <span class="player-number table-data bordered">12</span>
+              </div>
+              <div class="name-column table-data-container">
+                <span class="table-data bordered">николай голиков</span>
+              </div>
+              <div class="position-column table-data-container">
+                <span class="table-data bordered">защита</span>
+              </div>
+              <div class="age-column table-data-container additional-column">
+                <span class="table-data bordered">24</span>
+              </div>
+              <div class="height-column table-data-container additional-column">
+                <span class="table-data bordered">178/75</span>
+              </div>
+              <div class="more-info-column table-data-arrow">
+                <svg class="arrow-angle">
+                  <use xlink:href="sprite.svg#arrow-angle"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="player-list-inner-card-wrapper">
+                <div class="slider-wrapper">
+                  <div class="slider-slide">
+                    <img
+                      src="./img/placeholder-player-list.jpg"
+                      alt="Иван Иванов"
+                      class="player-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="player-data">
+                  <p class="player-data-label">возраст</p>
+                  <p class="player-data-value margin">24</p>
+                  <p class="player-data-label">рост/вес</p>
+                  <p class="player-data-value">177/80</p>
+                </div>
+                <div class="player-info-wrapper">
+                  <p class="player-info-heading">об игроке:</p>
+                  <p class="player-info">
+                    Крайне габаритный игрок в прошлом, чьи физические данные не
+                    раз спасали команду в прошлых сезонах ,Имеется внутри
+                    командное прозвище Оптимус прайм Участник Чемпионатов России
+                    по американскому футболу с 2012 года. В 2017 году решил что
+                    может дать команде больше если будет их тренировать и с тех
+                    пор имеем одного из опытных тренеров линии нападения
+                  </p>
+                </div>
+                <ul class="player-social-links social-icons">
+                  <li>
+                    <a href="#">
+                      <svg class="icon-vk light player">
+                        <use xlink:href="sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="icon-instagram light player">
+                        <use xlink:href="sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="table-info random accordion">
+              <div class="number-column table-data-container">
+                <span class="player-number table-data bordered">12</span>
+              </div>
+              <div class="name-column table-data-container">
+                <span class="table-data bordered">николай голиков</span>
+              </div>
+              <div class="position-column table-data-container">
+                <span class="table-data bordered">защита</span>
+              </div>
+              <div class="age-column table-data-container additional-column">
+                <span class="table-data bordered">24</span>
+              </div>
+              <div class="height-column table-data-container additional-column">
+                <span class="table-data bordered">178/75</span>
+              </div>
+              <div class="more-info-column table-data-arrow">
+                <svg class="arrow-angle">
+                  <use xlink:href="sprite.svg#arrow-angle"></use>
+                </svg>
+              </div>
+            </div>
+            <div class="panel">
+              <div class="player-list-inner-card-wrapper">
+                <div class="slider-wrapper">
+                  <div class="slider-slide">
+                    <img
+                      src="./img/placeholder-player-list.jpg"
+                      alt="Иван Иванов"
+                      class="player-img"
+                    />
+                  </div>
+                </div>
+
+                <div class="player-data">
+                  <p class="player-data-label">возраст</p>
+                  <p class="player-data-value margin">24</p>
+                  <p class="player-data-label">рост/вес</p>
+                  <p class="player-data-value">177/80</p>
+                </div>
+                <div class="player-info-wrapper">
+                  <p class="player-info-heading">об игроке:</p>
+                  <p class="player-info">
+                    Крайне габаритный игрок в прошлом, чьи физические данные не
+                    раз спасали команду в прошлых сезонах ,Имеется внутри
+                    командное прозвище Оптимус прайм Участник Чемпионатов России
+                    по американскому футболу с 2012 года. В 2017 году решил что
+                    может дать команде больше если будет их тренировать и с тех
+                    пор имеем одного из опытных тренеров линии нападения
+                  </p>
+                </div>
+                <ul class="player-social-links social-icons">
+                  <li>
+                    <a href="#">
+                      <svg class="icon-vk light player">
+                        <use xlink:href="sprite.svg#vk"></use>
+                      </svg>
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#">
+                      <svg class="icon-instagram light player">
+                        <use xlink:href="sprite.svg#instagram"></use>
+                      </svg>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <script src="./js/accordion.js"></script>
+    <script src="./js/splide.min.js"></script>
+    <script src="./js/slider-players.js"></script>
+  </body>
+</html>
