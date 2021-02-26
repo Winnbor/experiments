@@ -1,0 +1,118 @@
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+
+  h2 {
+    font-weight: 800;
+    font-size: 46px;
+    line-height: 130%;
+    letter-spacing: 0.03em;
+    margin-bottom: 50px;
+  }
+}
+.review-article {
+  padding: 50px 80px;
+  display: flex;
+}
+.slick-list {
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+}
+.reviews-wrapper {
+  margin-right: 40px;
+}
+.reviews-img-frame {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.reviews-person {
+  h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+}
+.reviews-person-graduating {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.08em;
+  color: #b9b9b9;
+}
+.reviews-person-text {
+  margin: 0;
+}
+.cuttr__readmore {
+  border: none;
+  outline-color: orangered;
+  padding: 0;
+  background-color: transparent;
+  border-bottom: 1px solid orangered;
+  color: orangered;
+  cursor: pointer;
+}
+
+.review-slider {
+  display: flex;
+  margin-bottom: 40px;
+
+  .slick-slide {
+    outline: none;
+    cursor: grab;
+  }
+}
+.slick-slide {
+  outline: none;
+}
+.slick-prev,
+.slick-next {
+  border: none;
+  outline-color: orangered;
+  background-color: transparent;
+  padding: 10px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-top: 150px;
+}
+.icon-arrow-left,
+.icon-arrow-right {
+  width: 20px;
+  height: 10px;
+  fill: orangered;
+}
+
+.review-second-slider {
+  display: flex;
+  width: 600px;
+
+  .slick-list {
+    width: 600px;
+  }
+
+  .slick-slide {
+    cursor: pointer;
+  }
+}
+.second-slider-img-box {
+  max-width: 54px;
+  max-height: 54px;
+  border: 1px solid transparent;
+  border-radius: 50px;
+  overflow: hidden;
+  margin-left: 30px;
+
+  img {
+    object-position: 50% 50%;
+  }
+}
+.review-second-slider .slick-current {
+  border: 1px solid orangered;
+}
