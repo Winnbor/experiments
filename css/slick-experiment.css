@@ -5,8 +5,8 @@ img {
 }
 
 .container {
-  max-width: 800px;
   margin: 0 auto;
+  padding: 50px 20px;
 }
 
 .container h2 {
@@ -17,11 +17,23 @@ img {
   margin-bottom: 50px;
 }
 
+@media screen and (min-width: 1360px) {
+  .container {
+    max-width: 1090px;
+  }
+}
+
 .review-article {
-  padding: 50px 80px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  padding: 20px;
+}
+
+@media screen and (min-width: 1360px) {
+  .review-article {
+    padding: 50px 80px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 .reviews-wrapper {
@@ -114,17 +126,36 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 600px;
+  width: 190px;
   margin: 0 auto;
   outline: 1px solid orangered;
 }
 
 .review-second-slider .slick-list {
-  width: 600px;
+  width: 190px;
 }
 
 .review-second-slider .slick-slide {
   cursor: pointer;
+}
+
+.review-second-slider .slick-prev {
+  left: -40px;
+  margin-top: 0;
+}
+
+.review-second-slider .slick-next {
+  right: -40px;
+  margin-top: 0;
+}
+
+@media screen and (min-width: 1360px) {
+  .review-second-slider {
+    width: 600px;
+  }
+  .review-second-slider .slick-list {
+    width: 600px;
+  }
 }
 
 .second-slider-img-box {
@@ -133,12 +164,20 @@ img {
   border: 1px solid transparent;
   border-radius: 50px;
   overflow: hidden;
-  margin-left: 31px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .second-slider-img-box img {
   -o-object-position: 50% 50%;
      object-position: 50% 50%;
+}
+
+@media screen and (min-width: 1360px) {
+  .second-slider-img-box {
+    margin-left: 31px;
+    margin-right: 0;
+  }
 }
 
 .review-second-slider .slick-current {
