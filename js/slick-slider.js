@@ -17,5 +17,5 @@ $('.review-second-slider').slick({
   asNavFor: '.review-slider',
   centerMode: false,
   focusOnSelect: true,
-  infinite: false
+  infinite: true
 });
