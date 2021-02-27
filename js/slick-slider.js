@@ -7,7 +7,8 @@ $(document).ready(function(){
     nextArrow: '<button type="button" class="slick-next"><svg class="icon-arrow-right"><use xlink:href="sprite.svg#arrow-right"></use></svg></button>',
     fade: true,
       asNavFor: '.review-second-slider',
-    infinite: true
+    infinite: true,
+    mobileFirst: true
   });
 });
 $('.review-second-slider').slick({
@@ -17,5 +18,6 @@ $('.review-second-slider').slick({
   asNavFor: '.review-slider',
   centerMode: false,
   focusOnSelect: true,
-  infinite: true
+  infinite: true,
+  mobileFirst: true
 });

@@ -24,11 +24,6 @@ img {
   display: flex;
 }
 
-.slick-list {
-  -webkit-box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
-          box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
-}
-
 .reviews-wrapper {
   margin-right: 40px;
 }
@@ -74,12 +69,12 @@ img {
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 40px;
+  -webkit-box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
+          box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 }
 
 .review-slider .slick-slide {
   outline: none;
-  cursor: -webkit-grab;
-  cursor: grab;
 }
 
 .slick-slide {
@@ -88,6 +83,8 @@ img {
 
 .slick-prev,
 .slick-next {
+  position: absolute;
+  z-index: 1;
   border: none;
   outline-color: orangered;
   background-color: transparent;
@@ -96,6 +93,14 @@ img {
   height: 40px;
   cursor: pointer;
   margin-top: 150px;
+}
+
+.slick-prev {
+  left: -20px;
+}
+
+.slick-next {
+  right: -20px;
 }
 
 .icon-arrow-left,
@@ -110,6 +115,8 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 600px;
+  margin: 0 auto;
+  outline: 1px solid orangered;
 }
 
 .review-second-slider .slick-list {

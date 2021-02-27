@@ -19,9 +19,6 @@ img {
   padding: 50px 80px;
   display: flex;
 }
-.slick-list {
-  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
-}
 .reviews-wrapper {
   margin-right: 40px;
 }
@@ -62,10 +59,10 @@ img {
 .review-slider {
   display: flex;
   margin-bottom: 40px;
+  box-shadow: -5px 8px 26px rgba(0, 0, 0, 0.04);
 
   .slick-slide {
     outline: none;
-    cursor: grab;
   }
 }
 .slick-slide {
@@ -73,6 +70,8 @@ img {
 }
 .slick-prev,
 .slick-next {
+  position: absolute;
+  z-index: 1;
   border: none;
   outline-color: orangered;
   background-color: transparent;
@@ -81,6 +80,12 @@ img {
   height: 40px;
   cursor: pointer;
   margin-top: 150px;
+}
+.slick-prev {
+  left: -20px;
+}
+.slick-next {
+  right: -20px;
 }
 .icon-arrow-left,
 .icon-arrow-right {
@@ -92,6 +97,8 @@ img {
 .review-second-slider {
   display: flex;
   width: 600px;
+  margin: 0 auto;
+  outline: 1px solid orangered;
 
   .slick-list {
     width: 600px;
