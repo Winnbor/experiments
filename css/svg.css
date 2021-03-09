@@ -1,3 +1,30 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.08em;
+  background-color: #ffffff;
+  color: #111518;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 .container {
   padding: 20px;
   margin-left: auto;
@@ -106,5 +133,98 @@ ul li svg {
 
 .is-hidden {
   display: none;
+}
+
+.logo-container {
+  width: 90px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-container {
+    width: 128px;
+  }
+}
+
+.logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #111518;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    font-size: 26px;
+    line-height: 1.23;
+  }
+}
+
+.logo-wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-wrapper {
+    margin-bottom: 5px;
+  }
+}
+
+.logo-left {
+  text-transform: none;
+}
+
+.logo-svg {
+  margin: 0 4px;
+  width: 14px;
+  height: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-svg {
+    width: 22px;
+    height: 30px;
+  }
+}
+
+.logo-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 700;
+  font-size: 6px;
+  line-height: 7px;
+  letter-spacing: 0.1em;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-description {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
+    color: #ff6b09;
+  }
+}
+
+.logo-color {
+  color: #111518;
 }
 /*# sourceMappingURL=svg.css.map */
