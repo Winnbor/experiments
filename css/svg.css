@@ -91,4 +91,20 @@ ul li svg {
     display: flex;
   }
 }
+
+.fire-box {
+  width: 300px;
+  height: 300px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.fire-box svg {
+  width: 300px;
+  height: 300px;
+}
+
+.is-hidden {
+  display: none;
+}
 /*# sourceMappingURL=svg.css.map */
