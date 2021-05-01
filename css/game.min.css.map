@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,QAAQ,AAAC,CACP,MAAM,CAAE,eAAe,CACvB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,GAAG,CACR,IAAI,CAAE,GAAG,CACT,SAAS,CAAE,qBAAqB,CAChC,KAAK,CAAE,KAAK,CACZ,MAAM,CAAE,KAAK,CACd",
+    "sources": [
+        "../sass/game.scss"
+    ],
+    "names": [],
+    "file": "game.min.css"
+}
